@@ -10,7 +10,7 @@ res=0 ### I/O TEST ###
   ### I/O ###
 out=$(seq 5 | ./plus)
 
-[ "${out}" = 15 ] || ng ${LINENO}        　 
+[ "${out}" = 14 ] || ng ${LINENO}        　 
   ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
 
