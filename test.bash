@@ -2,7 +2,9 @@
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 #SPDX -Licensa -Identifier:BSD -3 -Clause　
 ng () {  echo NG at Line $1
-res=1}
+         res=1 
+}
+
 res=0 ### I/O TEST ###
   ### I/O ###
  out=$(seq 5 | ./plus)
