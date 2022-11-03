@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 ##SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
-##SPDX -Licensa -Identifier:BSD -3 -Clause
+##SPDX -Licensa -Identifier:BSD -3 -Clause/
 name: test        
 on: push          
 jobs:             
