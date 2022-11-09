@@ -17,6 +17,6 @@
 ![test](https://github.com/demio-328ka/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
-標準入力から読み込んだ数字を足す。
+標準入力から読み込んだ数字を足して表示します。
 
 
