@@ -9,5 +9,8 @@ for line in sys.stdin:
        ansb -= float(line)
        ansc *= float(line)
        ansd /= float(line)
-print(ansa) 
+print("和"ansa)
+
+
+
            
