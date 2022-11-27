@@ -2,15 +2,20 @@
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 #SPDX -Licensa -Identifier:BSD -3 -Clause
 import sys
-ansa = ansb = ansc = ansd = 0.0
-for line in sys.stdin:
+an = ans = ansa = ansb = anse = ansf = 0.0
+ansc = ansd = 1.0
 
+for line in sys.stdin:
+       ans  += 1 
        ansa += float(line)
        ansb -= float(line)
        ansc *= float(line)
        ansd /= float(line)
-print("和"ansa)
-
-
+       anse  = ansa/ans
+print("和",ansa)
+print("差",ansb)
+print("積",ansc)
+print("商",ansd)
+print("平均",anse)
 
            
