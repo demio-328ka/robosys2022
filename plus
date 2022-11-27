@@ -1,17 +1,15 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 #SPDX -Licensa -Identifier:BSD -3 -Clause
-import sys
-ans = 0.0
-b = 0
-printf("和は＋を差はーを積は＊を省は/をクリック")
+b= 0
+print("和は＋を差はーを積は＊を省は/をクリック")
 a = input() 
 if a == "+" : b = 1
 elif a == "-" :  b = 2
 elif a == "*" :  b = 3
 elif a == "/" :  b = 4
 else : b = 5
-print(b)
+
 #for line in sys.stdin:
 
 #   ans += float(line)
