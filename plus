@@ -3,7 +3,19 @@
 #SPDX -Licensa -Identifier:BSD -3 -Clause
 import sys
 ans = 0.0
-for line in sys.stdin:
-    ans += float(line)
+b = 0
+printf("和は＋を差はーを積は＊を省は/をクリック")
+a = input() 
+if a == "+" : b = 1
+elif a == "-" :  b = 2
+elif a == "*" :  b = 3
+elif a == "/" :  b = 4
+else : b = 5
+print(b)
+#for line in sys.stdin:
 
-print(ans)
+#   ans += float(line)
+#if ans<-1:
+#          print("違う")
+#else:
+#          print(ans)
