@@ -2,20 +2,14 @@
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 #SPDX -Licensa -Identifier:BSD -3 -Clause
 import sys
-an = ans = ansa = ansb = anse = ansf = 0.0
-ansc = ansd = 1.0
-
+kaisuu = ans = heikin  = 0.0
 for line in sys.stdin:
-       ans  += 1 
-       ansa += float(line)
-       ansb -= float(line)
-       ansc *= float(line)
-       ansd /= float(line)
-       anse  = ansa/ans
-print("和",ansa)
-print("差",ansb)
-print("積",ansc)
-print("商",ansd)
-print("平均",anse)
+    kaisuu  += 1
+    try:
+        ans += float(line)
+    except ValueError:
+        ans += 0
+    heikin = ans/kaisuu
+print(heikin)
 
            
