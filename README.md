@@ -8,6 +8,7 @@
   * © 2022 Ryuichi Ueda
 授業で制作した課題
 ![test](https://github.com/demio-328ka/robosys2022/actions/workflows/test.yml/badge.svg)
+
 ##　各コマンドファイルの説明
 ### plus コマンド
 標準入力から読み込んだ数字の平均を求めて表示するソフトウエア。
