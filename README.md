@@ -1,7 +1,7 @@
 # robosys2022
 授業で制作したコマンドの課題を掲示
 
-[test](https://github.com/demio-328ka/robosys2022/actions/workflows/test.yml/badge.svg)
+ [test](https://github.com/demio-328ka/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ## 各コマンドファイルの説明
 ### plus コマンド
@@ -29,11 +29,13 @@ ubuntu２０．０４にてplusコマンドをnumsを用いて実行する場合
 ./plus<nums 
 
 実行結果は10.5と表示される。
+
 また、各文字が独立したnikki１ファイルを用いて実行すると
 
 ./plus<nikki1
 
 実行結果は417.8となる。
+
 対して各文字が独立していないnikki2ファイルを用いて実行すると
 
 ./plus<nikki2
@@ -48,8 +50,6 @@ ubuntu２０．０４にてplusコマンドをnumsを用いて実行する場合
 　これらのコマンドは千葉工業大学　未来ロボティクス学科　上田先生によって作られたのコードを一部に使用しています。
 
 ## ライセンス
-* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* © 2022 Ryuichi Ueda
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   * このパッケージは，aaa由来のコード（© 2022 Hoge Fuge）を利用しています．
   * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
