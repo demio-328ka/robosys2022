@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 #SPDX -Licensa -Identifier:BSD -3 -Clause
+#このコードの一部に千葉工業大学上田先生のコードを含んでいます。また、著者森芳尚python１年生を参考にしています。
 import sys
 kaisuu = ans = heikin  = 0.0
 for line in sys.stdin:
@@ -9,7 +10,11 @@ for line in sys.stdin:
         ans += float(line)
     except ValueError:
         ans += 0
-    heikin = ans/kaisuu
+        kaisuu -= 1
+    try:
+        heikin = ans/kaisuu
+    except ZeroDivisionError:
+        heikin = 0.0
 print(heikin)
 
            
