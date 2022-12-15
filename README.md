@@ -62,7 +62,7 @@ ubuntu20.04にてplusコマンドをnumsを用いて実行する場合コマン�
 
 となるので注意が必要。
 
-###　・plus_stdin
+###・plus_stdin
 
 plus_stdinコマンドをnumsを用いて実行する場合コマンドは以下のとおりである。尚このplus_stdinコマンドはchmod +xにて実行>権限を予め与えている。
 ## 製作者
