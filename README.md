@@ -30,7 +30,8 @@ plus コマンドの動作テストに用いることが出来るソフトウエ
 * Ubuntu20.04
 * Python 3.8.10
 ## 使用例
-### plus
+
+### ・plus
 ubuntu20.04にてplusコマンドをnumsを用いて実行する場合コマンドは以下のとおりである。尚このplusコマンドはchmod +xにて実行権限を予め与えている。
 
  `$./plus<nums` 
@@ -61,7 +62,8 @@ ubuntu20.04にてplusコマンドをnumsを用いて実行する場合コマン�
 
 となるので注意が必要。
 
-###plus_stdin
+###　・plus_stdin
+
 plus_stdinコマンドをnumsを用いて実行する場合コマンドは以下のとおりである。尚このplus_stdinコマンドはchmod +xにて実行>権限を予め与えている。
 ## 製作者
  Kaoru Miyazawa 　千葉工業大学未来ロボティクス学科所属（2021入学）
