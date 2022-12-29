@@ -30,7 +30,7 @@ plus コマンドの動作テストに用いることが出来るソフトウエ
 * Ubuntu20.04
 * Python 3.8.10
 
-##インストール方法
+## インストール方法
  '$ git clone https://github.com/demio-328ka/robosys2022'
 
 ## 使用例
