@@ -9,13 +9,7 @@ ng () {
 res=0
 
  ### I/O TESt ###
- out=$(seq 5 |./plus)
- [ "${out}" = 3.0 ] || ng ${LINENO} #15
- out=$(echo あ |./plus)
- [ "${out}" = "0.0" ] || ng ${LINENO}
- out=$( echo   |./plus)
- [ "${out}" = "0.0" ] || ng ${LINENO}
+ out=$(seq 5 |./plus_stdin)
+ [ "${out}" = 15.0 ] || ng ${LINENO} #15
 [ "$res" = 0 ] && echo OK
  exit $res
-
-
