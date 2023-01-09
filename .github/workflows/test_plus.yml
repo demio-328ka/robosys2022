@@ -1,6 +1,6 @@
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
 ##SPDX -Licensa -Identifier:BSD -3 -Clause
-name: test        
+name: test_plus        
 on: push          
 jobs:             
  test:           
