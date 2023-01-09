@@ -11,5 +11,6 @@ res=0
  ### I/O TESt ###
  out=$(seq 5 |./plus_stdin)
  [ "${out}" = 15.0 ] || ng ${LINENO} #15
-[ "$res" = 0 ] && echo OK
+ 
+ [ "$res" = 0 ] && echo OK
  exit $res
