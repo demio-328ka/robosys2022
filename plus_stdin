@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText: 2022 Miyazawa kaoeu
-#SPDX -Licensa -Identifier:BSD -3 -Clause
+#SPDX-Licensa-Identifier: BSD-3-Clause
+
 import sys
 ans = 0.0
 for line in sys.stdin:
