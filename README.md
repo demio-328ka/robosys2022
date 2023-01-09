@@ -36,7 +36,7 @@ plus コマンドの動作テストに用いる事が出来るソフトウエア
 ## インストール方法
 
 インストールは下記のコマンドで可能。このリポジトリ内の全てのファイル、コマンドがインストールされます。
- `$ git clone https://github.com/demio-328ka/robosys2022`
+ `git clone https://github.com/demio-328ka/robosys2022`
 
 ## 使用例
 
